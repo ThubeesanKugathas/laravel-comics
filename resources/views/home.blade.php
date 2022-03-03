@@ -1,8 +1,8 @@
 @extends('layouts.default')
 
-
 @section('pageTitle', 'HOME PAGE')
 
+{{-- main part one section --}}
 @section('firstContent')
     <div class="ms_main-one d-flex mx-auto justify-content-around flex-wrap position-relative">
         <!-- position absolute tag -->
@@ -29,6 +29,7 @@
     </span>
 @endsection
 
+{{-- main part two section --}}
 @section('secondContent')
     <div class="ms_main-two">
         <ul class="d-flex justify-content-around align-items-center mx-auto">

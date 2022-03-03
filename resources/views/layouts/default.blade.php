@@ -9,19 +9,24 @@
 </head>
 <body>
     
-    <nav class="d-flex justify-content-between align-items-center mx-auto">
-        @include('partials.navbar')
-    </nav>
+    {{-- header with nav partial and jumbotron partial --}}
+    <header>
+        <nav class="d-flex justify-content-between align-items-center mx-auto">
+            @include('partials.navbar')
+        </nav>
+    
+        <div class="ms_jumbotron">
+            {{-- direct scss styling --}}
+        </div>
+    </header>
 
-    <div class="ms_jumbotron">
-        {{-- direct scss styling --}}
-    </div>
-
+    {{-- main in two sections --}}
     <main>
         @yield('firstContent')
         @yield('secondContent')
     </main>
 
+    {{-- footer in two partials --}}
     <footer>
         @include('partials.footerBox1')
         @include('partials.footerBox2')

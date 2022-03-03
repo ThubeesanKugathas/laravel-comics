@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // config to get data from comics.php
     $data = config('comics');
 
+    // compact to give $data to homepage
     return view('home', compact("data"));
 });
