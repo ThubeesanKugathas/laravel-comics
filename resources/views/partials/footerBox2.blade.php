@@ -1,5 +1,5 @@
-<div class="ms_ft-bottom">
-    <div class="ms_container">
+<div class="ms_footer-two">
+    <div class="ms_container d-flex mx-auto justify-content-between align-items-center">
         <!-- left side flex container -->
         <div class="ms_left">
             <p>SIGN-UP NOW!</p>
@@ -7,7 +7,7 @@
 
         <!-- right side flex container -->
         <div class="ms_right">
-            <ul>
+            <ul class="d-flex justify-content-between align-items-center">
                 <li>FOLLOW US</li>
                 <li>
                     <img src="{{ url('img/footer-facebook.png') }}" alt="footer-facebook">

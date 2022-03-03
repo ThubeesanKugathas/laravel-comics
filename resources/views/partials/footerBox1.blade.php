@@ -1,9 +1,9 @@
-<div class="ms_ft-middle">
-        <div class="ms_container">
+<div class="ms_footer-one">
+        <div class="ms_container mx-auto d-flex justify-content-between align-items-center">
 
             <!-- left side flex container -->
             <div class="ms_left">
-                <ul class="ms_list">
+                <ul class="ms_list d-flex">
                     <div class="ms_first-columns">
                         <li>
                             <p>DC COMICS</p>

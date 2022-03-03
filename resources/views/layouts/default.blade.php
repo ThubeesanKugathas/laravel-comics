@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <nav class="d-flex justify-between  align-items-center mx-auto">
+    <nav class="d-flex justify-content-between align-items-center mx-auto">
         @include('partials.navbar')
     </nav>
 
