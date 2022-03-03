@@ -1,5 +1,5 @@
 <div class="ms_footer-two">
-    <div class="ms_container d-flex mx-auto justify-content-between align-items-center">
+    <div class="ms_container d-flex mx-auto justify-content-between align-items-end">
         <!-- left side flex container -->
         <div class="ms_left">
             <p>SIGN-UP NOW!</p>

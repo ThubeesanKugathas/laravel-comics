@@ -8,7 +8,7 @@
         <div class="ms_main-one d-flex mx-auto justify-content-around flex-wrap position-relative">
             <!-- position absolute tag -->
             <div class="ms_current-series position-absolute">
-                <h2>CURRENT SERIES</h2>
+                <h3>CURRENT SERIES</h3>
             </div>
     
             <!-- v-for comics cards -->

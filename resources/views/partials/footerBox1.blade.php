@@ -55,6 +55,10 @@
                         </ul>
                     </li>
                 </ul>
+
+                <span>All Site Content TM and 2020 DC Entertainment, unless otherwise <span>noted here.</span> All rights reserved.</span>
+                    </br> 
+                <span>Cookie Settings</span>
             </div>
 
             <!-- right side flex container -->

@@ -3,7 +3,7 @@
 main {
     background-color: #222;
     color: $white-color;
-    padding: 50px 0 30px;
+    padding: 45px 0 30px;
 
     .ms_main-one {
         width: 1200px;
@@ -19,6 +19,7 @@ main {
         // comics cards ---------------------------------------------------
         .ms_comics-card {
             width: calc((100% - 150px) / 6);
+            margin-top: 20px;
 
             .ms_card-image {
                 height: 180px;

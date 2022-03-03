@@ -12234,7 +12234,7 @@ nav .ms_right ul li:last-child {
 main {
   background-color: #222;
   color: #fff;
-  padding: 50px 0 30px;
+  padding: 45px 0 30px;
 }
 
 main .ms_main-one {
@@ -12250,6 +12250,7 @@ main .ms_main-one .ms_current-series {
 
 main .ms_main-one .ms_comics-card {
   width: calc((100% - 150px) / 6);
+  margin-top: 20px;
 }
 
 main .ms_main-one .ms_comics-card .ms_card-image {
@@ -12336,7 +12337,7 @@ main span:hover {
 }
 
 .ms_footer-two {
-  height: 100px;
+  height: 80px;
   background-color: #333;
 }
 
