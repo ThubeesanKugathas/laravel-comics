@@ -4,10 +4,6 @@ nav {
     width: $container-width;
     height: 100%;
     padding: 20px 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
     // left side ---------------------------------
     .ms_left {
@@ -23,8 +19,6 @@ nav {
         width: 60%;
 
         ul {
-            display: flex;
-            
             li {
                 margin: 0 10px;
                 font-size: 15px;

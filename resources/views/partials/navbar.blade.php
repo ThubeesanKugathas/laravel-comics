@@ -4,7 +4,7 @@
 
 <!-- bar right side del flex container -->
 <div class="ms_right">
-    <ul>
+    <ul  class="d-flex">
         <li>
             <a href="/#">CHARACTERS</a>
         </li>

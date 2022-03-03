@@ -9,12 +9,12 @@
 </head>
 <body>
     
-    <nav>
+    <nav class="d-flex justify-between  align-items-center mx-auto">
         @include('partials.navbar')
     </nav>
 
     <div class="ms_jumbotron">
-
+        {{-- direct scss styling --}}
     </div>
 
     <main>

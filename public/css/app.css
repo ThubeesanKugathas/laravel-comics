@@ -12181,10 +12181,6 @@ nav {
   width: 1200px;
   height: 100%;
   padding: 20px 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 nav .ms_left {
@@ -12197,10 +12193,6 @@ nav .ms_left img {
 
 nav .ms_right {
   width: 60%;
-}
-
-nav .ms_right ul {
-  display: flex;
 }
 
 nav .ms_right ul li {
