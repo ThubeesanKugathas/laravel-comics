@@ -18,7 +18,8 @@
     </main>
 
     <footer>
-        @include('partials.footer')
+        @include('partials.footerBox1')
+        @include('partials.footerBox2')
     </footer>
 
 </body>

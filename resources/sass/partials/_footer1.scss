@@ -1,0 +1,45 @@
+@import '../variables.scss';
+
+.ms_ft-middle {
+    height: 400px;
+    background: url("/img/footer-bg.jpg") no-repeat;
+    background-size: cover;
+
+    .ms_container {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        // left side -------------------------------
+        .ms_list {
+            display: flex;
+
+            li {
+                margin-right: 20px;
+            }
+
+            p {
+                color: $white-color;
+                font-size: 20px;
+                font-weight: bold;
+                margin: 10px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: #888;
+
+                &:hover {
+                    color: $white-color;
+                }
+            }
+        }
+
+        // right side ------------------------------
+        img {
+            height: 400px;
+        }
+    }
+}

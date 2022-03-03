@@ -12220,3 +12220,93 @@ nav .ms_right ul li a:hover {
   color: #08f;
 }
 
+.ms_ft-middle {
+  height: 400px;
+  background: url("/img/footer-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+.ms_ft-middle .ms_container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ms_ft-middle .ms_container .ms_list {
+  display: flex;
+}
+
+.ms_ft-middle .ms_container .ms_list li {
+  margin-right: 20px;
+}
+
+.ms_ft-middle .ms_container .ms_list p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.ms_ft-middle .ms_container .ms_list a {
+  text-decoration: none;
+  color: #888;
+}
+
+.ms_ft-middle .ms_container .ms_list a:hover {
+  color: #fff;
+}
+
+.ms_ft-middle .ms_container img {
+  height: 400px;
+}
+
+.ms_ft-bottom {
+  height: 100px;
+  background-color: #333;
+}
+
+.ms_ft-bottom .ms_container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ms_ft-bottom .ms_container p {
+  color: #fff;
+  border: 2px solid #08f;
+  padding: 7px 10px;
+  font-size: 20px;
+}
+
+.ms_ft-bottom .ms_container p:hover {
+  cursor: pointer;
+  background-color: #08f;
+  border: 2px solid #fff;
+}
+
+.ms_ft-bottom .ms_container ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.ms_ft-bottom .ms_container ul li {
+  margin: 0 10px;
+}
+
+.ms_ft-bottom .ms_container ul li:first-child {
+  color: #08f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ms_ft-bottom .ms_container ul li img:hover {
+  filter: brightness(1.7);
+  cursor: pointer;
+}
+
