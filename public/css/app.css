@@ -12173,3 +12173,50 @@ fieldset:disabled .btn {
   }
 }
 
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 1200px;
+  height: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .ms_left {
+  width: 40%;
+}
+
+nav .ms_left img {
+  height: 80px;
+}
+
+nav .ms_right {
+  width: 60%;
+}
+
+nav .ms_right ul {
+  display: flex;
+}
+
+nav .ms_right ul li {
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav .ms_right ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav .ms_right ul li a:hover {
+  padding-bottom: 50px;
+  border-bottom: 3px solid #08f;
+  color: #08f;
+}
+
