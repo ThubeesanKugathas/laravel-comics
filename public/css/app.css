@@ -12226,6 +12226,93 @@ nav .ms_right ul li a:hover {
   background-size: cover;
 }
 
+main {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0 30px;
+}
+
+main .ms_container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+main .ms_container .ms_current-series {
+  position: absolute;
+  top: -70px;
+  left: 0%;
+  background-color: #08f;
+  padding: 10px 15px;
+}
+
+main .ms_container .ms_comics-card {
+  width: calc((100% - 150px) / 6);
+}
+
+main .ms_container .ms_comics-card .ms_card-image {
+  height: 180px;
+  overflow: hidden;
+}
+
+main .ms_container .ms_comics-card p {
+  margin: 20px 0 30px;
+}
+
+main span {
+  padding: 10px 50px;
+  background-color: #08f;
+  display: table;
+  margin: 0 auto;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main span a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main span:hover {
+  text-decoration: underline;
+}
+
+.ms_ft-top {
+  background-color: #08f;
+  height: 150px;
+}
+
+.ms_ft-top ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.ms_ft-top ul li {
+  display: flex;
+  align-items: center;
+}
+
+.ms_ft-top ul li img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.ms_ft-top ul li p {
+  color: #fff;
+}
+
+.ms_ft-top ul li p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .ms_ft-middle {
   height: 400px;
   background: url("/img/footer-bg.jpg") no-repeat;

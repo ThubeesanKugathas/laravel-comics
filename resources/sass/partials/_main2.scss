@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.ms_ft-top {
+    background-color: $blue-color;
+    height: 150px;
+
+    ul {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
+
+        li {
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 60px;
+                margin-right: 10px;
+            }
+
+            p {
+                color: $white-color;
+
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

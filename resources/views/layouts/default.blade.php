@@ -14,11 +14,12 @@
     </nav>
 
     <div class="ms_jumbotron">
-        
+
     </div>
 
     <main>
-        @yield('content')
+        @yield('firstContent')
+        @yield('secondContent')
     </main>
 
     <footer>
