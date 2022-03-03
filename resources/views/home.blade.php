@@ -4,9 +4,9 @@
 @section('pageTitle', 'HOME PAGE')
 
 @section('firstContent')
-    <div class="ms_container">
+    <div class="ms_main-one d-flex mx-auto justify-content-around flex-wrap position-relative">
         <!-- position absolute tag -->
-        <div class="ms_current-series">
+        <div class="ms_current-series position-absolute">
             <h2>CURRENT SERIES</h2>
         </div>
 
@@ -22,7 +22,7 @@
     </div>
 
     <!-- load more button -->
-    <span>
+    <span class="mx-auto d-table">
         <a href="#/">
             LOAD MORE
         </a>
@@ -30,25 +30,25 @@
 @endsection
 
 @section('secondContent')
-    <div class="ms_ft-top">
-        <ul>
-            <li>
+    <div class="ms_main-two">
+        <ul class="d-flex justify-content-around align-items-center mx-auto">
+            <li class="d-flex align-items-center">
                 <img src="{{ url('img/buy-comics-digital-comics.png') }}" alt="digital-comics">
                 <p>DIGITAL COMICS</p>
             </li>
-            <li>
+            <li class="d-flex align-items-center">
                 <img src="{{ url('img/buy-comics-merchandise.png') }}" alt="merchandise">
                 <p>MERCHANDISE</p>
             </li>
-            <li>
+            <li class="d-flex align-items-center">
                 <img src="{{ url('img/buy-comics-shop-locator.png') }}" alt="shop-locator">
                 <p>SHOP LOCATOR</p>
             </li>
-            <li>
+            <li class="d-flex align-items-center">
                 <img src="{{ url('img/buy-comics-subscriptions.png') }}" alt="subscriptions">
                 <p>SUBSCRIPTIONS</p>
             </li>
-            <li>
+            <li class="d-flex align-items-center">
                 <img src="{{ url('img/buy-dc-power-visa.svg') }}" alt="dc-power-visa">
                 <p>DC POWER VISA</p>
             </li>

@@ -12221,46 +12221,39 @@ nav .ms_right ul li a:hover {
 main {
   background-color: #222;
   color: #fff;
-  padding: 50px 0 30px;
+  padding-top: 50px;
 }
 
-main .ms_container {
+main .ms_main-one {
   width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  position: relative;
 }
 
-main .ms_container .ms_current-series {
-  position: absolute;
+main .ms_main-one .ms_current-series {
   top: -70px;
   left: 0%;
   background-color: #08f;
   padding: 10px 15px;
 }
 
-main .ms_container .ms_comics-card {
+main .ms_main-one .ms_comics-card {
   width: calc((100% - 150px) / 6);
 }
 
-main .ms_container .ms_comics-card .ms_card-image {
+main .ms_main-one .ms_comics-card .ms_card-image {
   height: 180px;
   overflow: hidden;
 }
 
-main .ms_container .ms_comics-card p {
+main .ms_main-one .ms_comics-card p {
   margin: 20px 0 30px;
 }
 
 main span {
   padding: 10px 50px;
   background-color: #08f;
-  display: table;
-  margin: 0 auto;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 main span a {
@@ -12272,35 +12265,26 @@ main span:hover {
   text-decoration: underline;
 }
 
-.ms_ft-top {
+.ms_main-two {
   background-color: #08f;
   height: 150px;
 }
 
-.ms_ft-top ul {
+.ms_main-two ul {
   height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   width: 1200px;
-  margin: 0 auto;
 }
 
-.ms_ft-top ul li {
-  display: flex;
-  align-items: center;
-}
-
-.ms_ft-top ul li img {
+.ms_main-two ul li img {
   height: 60px;
   margin-right: 10px;
 }
 
-.ms_ft-top ul li p {
+.ms_main-two ul li p {
   color: #fff;
 }
 
-.ms_ft-top ul li p:hover {
+.ms_main-two ul li p:hover {
   text-decoration: underline;
   cursor: pointer;
 }

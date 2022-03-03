@@ -3,19 +3,13 @@
 main {
     background-color: #222;
     color: $white-color;
-    padding: 50px 0 30px;
+    padding-top: 50px;
 
-    .ms_container {
+    .ms_main-one {
         width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        position: relative;
 
         // position absolute tag ------------------------------------------
         .ms_current-series {
-            position: absolute;
             top: -70px;
             left: 0%;
             background-color: $blue-color;
@@ -41,10 +35,9 @@ main {
     span {
         padding: 10px 50px;
         background-color: $blue-color;
-        display: table;
-        margin: 0 auto;
         font-weight: bold;
         cursor: pointer;
+        margin-bottom: 30px;
 
         a {
             text-decoration: none;
