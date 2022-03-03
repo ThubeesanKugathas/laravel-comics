@@ -10,27 +10,21 @@
 <body>
     
     {{-- header with nav partial and jumbotron partial --}}
-    <header>
-        <nav class="d-flex justify-content-between align-items-center mx-auto">
-            @include('partials.navbar')
-        </nav>
+    <div class="ms_mini-header"></div>
     
-        <div class="ms_jumbotron">
-            {{-- direct scss styling --}}
-        </div>
-    </header>
+    @include('partials.navbar')
+
+    <div class="ms_jumbotron">
+        {{-- direct scss styling --}}
+    </div>
 
     {{-- main in two sections --}}
-    <main>
-        @yield('firstContent')
-        @yield('secondContent')
-    </main>
+    @yield('firstContent')
+    @yield('secondContent')
 
     {{-- footer in two partials --}}
-    <footer>
-        @include('partials.footerBox1')
-        @include('partials.footerBox2')
-    </footer>
+    @include('partials.footerBox1')
+    @include('partials.footerBox2')
 
 </body>
 </html>

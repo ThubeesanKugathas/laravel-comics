@@ -3,7 +3,7 @@
 main {
     background-color: #222;
     color: $white-color;
-    padding-top: 50px;
+    padding: 50px 0 30px;
 
     .ms_main-one {
         width: 1200px;
@@ -37,7 +37,6 @@ main {
         background-color: $blue-color;
         font-weight: bold;
         cursor: pointer;
-        margin-bottom: 30px;
 
         a {
             text-decoration: none;
