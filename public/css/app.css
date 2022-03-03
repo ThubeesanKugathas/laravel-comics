@@ -12177,22 +12177,31 @@ ul {
   list-style: none;
 }
 
+.ms_mini-header {
+  background-color: #08f;
+}
+
+.ms_mini-header div {
+  width: 1200px;
+}
+
+.ms_mini-header div span {
+  color: #fff;
+  font-size: 10px;
+}
+
+.ms_mini-header div span:first-child {
+  margin-right: 30px;
+}
+
 nav {
   width: 1200px;
   height: 100%;
   padding: 20px 0;
 }
 
-nav .ms_left {
-  width: 40%;
-}
-
 nav .ms_left img {
   height: 80px;
-}
-
-nav .ms_right {
-  width: 60%;
 }
 
 nav .ms_right ul li {
@@ -12207,9 +12216,13 @@ nav .ms_right ul li a {
 }
 
 nav .ms_right ul li a:hover {
-  padding-bottom: 50px;
+  padding-bottom: 55px;
   border-bottom: 3px solid #08f;
   color: #08f;
+}
+
+nav .ms_right ul li:last-child {
+  margin-right: 0;
 }
 
 .ms_jumbotron {

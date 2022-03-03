@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+.ms_mini-header {
+    background-color: $blue-color;
+    
+    div {
+        width: $container-width;
+
+        span {
+            color: $white-color;
+            font-size: 10px;
+    
+            &:first-child {
+                margin-right: 30px;
+            }
+        }
+    }
+}

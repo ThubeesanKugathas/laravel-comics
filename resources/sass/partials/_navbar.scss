@@ -7,8 +7,6 @@ nav {
 
     // left side ---------------------------------
     .ms_left {
-        width: 40%;
-
         img {
             height: 80px;
         }
@@ -16,8 +14,6 @@ nav {
 
     // righ side --------------------------------
     .ms_right {
-        width: 60%;
-
         ul {
             li {
                 margin: 0 10px;
@@ -29,10 +25,14 @@ nav {
                     color: $grey-color;
 
                     &:hover {
-                        padding-bottom: 50px;
+                        padding-bottom: 55px;
                         border-bottom: 3px solid $blue-color;
                         color: $blue-color;
                     }
+                }
+
+                &:last-child {
+                    margin-right: 0;
                 }
             }
         }

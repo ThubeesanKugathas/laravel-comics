@@ -9,14 +9,11 @@
 </head>
 <body>
     
-    {{-- header with nav partial and jumbotron partial --}}
-    <div class="ms_mini-header"></div>
-    
+    {{-- header with his part partial, nav partial and jumbotron --}}
+    @include('partials.miniheader')    
     @include('partials.navbar')
-
-    <div class="ms_jumbotron">
-        {{-- direct scss styling --}}
-    </div>
+    {{-- direct scss styling --}}
+    <div class="ms_jumbotron"></div>
 
     {{-- main in two sections --}}
     @yield('firstContent')
