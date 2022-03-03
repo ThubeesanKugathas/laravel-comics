@@ -12220,6 +12220,12 @@ nav .ms_right ul li a:hover {
   color: #08f;
 }
 
+.ms_jumbotron {
+  height: 400px;
+  background: url("/img/jumbotron.jpg") no-repeat;
+  background-size: cover;
+}
+
 .ms_ft-middle {
   height: 400px;
   background: url("/img/footer-bg.jpg") no-repeat;

@@ -13,6 +13,10 @@
         @include('partials.navbar')
     </nav>
 
+    <div class="ms_jumbotron">
+        
+    </div>
+
     <main>
         @yield('content')
     </main>
