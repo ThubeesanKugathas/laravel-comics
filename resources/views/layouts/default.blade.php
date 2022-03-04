@@ -16,8 +16,7 @@
     <div class="ms_jumbotron"></div>
 
     {{-- main in two sections --}}
-    @yield('firstContent')
-    @yield('secondContent')
+    @yield('mainContent')
 
     {{-- footer in two partials --}}
     @include('partials.footerBox1')

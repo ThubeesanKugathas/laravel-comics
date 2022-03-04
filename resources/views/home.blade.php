@@ -3,11 +3,8 @@
 @section('pageTitle', 'HOME PAGE')
 
 {{-- main part one section --}}
-@section('firstContent')
+@section('mainContent')
     @include('partials.homeFirstContent')
-@endsection
-
 {{-- main part two section --}}
-@section('secondContent')
     @include('partials.homeSecondContent')
 @endsection
