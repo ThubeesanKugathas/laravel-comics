@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    // config to get data from comics.php
-    $data = config('comics');
+Route::get('/', 'HomeController@index')->name('home');
 
-    // compact to give $data to homepage
-    return view('home', compact("data"));
-});
+Route::get('/comic/{id}', 'ComicController@read')->name('comic.detail');
