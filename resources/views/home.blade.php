@@ -2,9 +2,9 @@
 
 @section('pageTitle', 'HOME PAGE')
 
-{{-- main part one section --}}
+{{-- main part one content --}}
 @section('mainContent')
     @include('partials.homeFirstContent')
-{{-- main part two section --}}
+{{-- main part two content --}}
     @include('partials.homeSecondContent')
 @endsection

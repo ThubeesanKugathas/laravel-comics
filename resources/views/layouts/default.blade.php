@@ -15,7 +15,7 @@
     {{-- direct scss styling --}}
     <div class="ms_jumbotron"></div>
 
-    {{-- main in two sections --}}
+    {{-- main content --}}
     @yield('mainContent')
 
     {{-- footer in two partials --}}
